@@ -1,8 +1,8 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import QuoteCard from "./QuoteCard"
-import Navbar from "./Navbar"
+import QuoteCard from "../components/QuoteCard"
+import Navbar from "../components/Navbar"
 
 interface quote {
     q: string

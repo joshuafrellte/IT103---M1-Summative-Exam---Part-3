@@ -1,10 +1,11 @@
 import Image from "next/image";
-import QuoteBoard from "./components/QuoteBoard";
+import QuoteBoard from "./quotes/page";
+import LandingPage from "./home/page";
 
 export default function Home() {
   return (
     <div className="bg-amber-50">
-      <QuoteBoard />
+      <LandingPage />
     </div>
   );
 }
