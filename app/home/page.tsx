@@ -34,9 +34,9 @@ export default function LandingPage() {
     }
 
     return (
-        <div className="font-serif bg-orange-50 p-6 md:p-8 lg:px-16 xl:px-16 h-dvh text-center flex flex-col gap-8">
+        <div className="font-serif bg-[rgb(231,186,151)] p-6 md:p-8 lg:px-16 xl:px-16 h-dvh text-center flex flex-col gap-8">
             <Navbar />
-            <div className="bg-orange-200 rounded h-96 sm:h-150 p-6 xl:px-32 flex flex-col items-center justify-evenly gap-6 shadow">
+            <div className="bg-orange-100 rounded h-96 sm:h-150 p-6 xl:px-32 flex flex-col items-center justify-evenly gap-6 shadow">
                 <p className="text-orange-950 text-2xl sm:text-4xl">
                     "{quote.q}"
                 </p>
@@ -45,7 +45,7 @@ export default function LandingPage() {
                 </p>
             </div>
             <Link href="/quotes">
-                <button className="bg-orange-900 text-2xl self-center text-orange-50 px-8 py-4 w-fit rounded shadow cursor-pointer transition-colors duration-100 hover:bg-orange-950">
+                <button className="bg-amber-800 text-2xl self-center text-orange-50 px-8 py-4 w-fit rounded shadow cursor-pointer transition-colors duration-100 hover:bg-amber-900">
                     Want More Quotes?
                 </button>
             </Link>

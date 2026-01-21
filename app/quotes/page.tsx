@@ -35,7 +35,7 @@ export default function QuoteBoard() {
     }
 
     return (
-        <div className="bg-orange-50 p-6 md:p-8 lg:px-16 xl:px-16 flex gap-6 md:gap-8 flex-col items-center ">
+        <div className="bg-[rgb(231,186,151)] p-6 md:p-8 lg:px-16 xl:px-16 flex gap-6 md:gap-8 flex-col items-center ">
             <Navbar />
             <ol className="grid gap-6 md:gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">    
                 {quotes.map((quote: Quote) => (
